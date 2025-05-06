@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 40px;
+  }
+  
+  header {
+    margin-top: -20px;
+    /* position: sticky; */
+  }
+  
+  .top-bar {
+    margin-left: 0px;
+    padding: 100px;
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .top-bar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sell-btn {
+    background: #ffce32;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .main {
+    font-size: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    padding: 15px 20px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .loc {
+    color: white;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 5px;
+  
+  
+  }
+  
+  .in {
+    outline: none;
+  }
+  
+  .location {
+    display: flex;
+    border: 1px solid lightgray;
+    height: 30px;
+  }
+  
+  .pakistan {
+    height: 30px;
+    width: 150px;
+    outline: none;
+    border: none;
+  }
+  
+  .inpu {
+    height: 6.5px;
+    border: 1px solid lightgray;
+    height: 10px;
+  }
+  
+  .button {
+    height: 31px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    margin: 0 7px;
+  }
+  
+  .lin {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .lin a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+  
+  }
+  
+  
+  .banner img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .categories {
+    padding: 20px;
+  }
+  
+  .category-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .category {
+    background: #efefef;
+    padding: 15px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  .pic {
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .pra {
+    text-align: center;
+    display: flex;
+  }
+  
+  /* CSS CODING */
+  .card {
+    width: 230px;
+    height: 270px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 13px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 135px;
+    object-fit: cover;
+  }
+  
+  .label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    color: black;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .card-content {
+    padding: 16px;
+    /* display: inline-block; */
+  }
+  
+  .card-content h4 {
+    margin: 0 0 5px;
+    display: inline-block;
+  }
+  
+  .card-content p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  @media(max-width:600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    nav,
+    .search-bar,
+    .button,
+    {
+    flex-direction: column;
+    }
+  
+  .location, .svg{
+    width: 90px;
+    margin-left: 0px;
+  }
+  
+  
+  .lin {
+    flex-direction: column;
+    font-size: 9px;
+  }
+  
+  .main {
+    font-size: 12px;
+  }
+  
+  .search-bar,
+  .inpu {
+    width: 100%;
+    margin-bottom: 10px;
+  
+  }
+  
+  .banner {
+    /* width: 100%; */
+    display: none;
+  }
+  
+  main {
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-left: 2px;
+  }
+  
+  .pic {
+    width: 65px;
+  }
+  
+  .card {
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  .contener {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  .card-content p{
+   width: 2px;
+  }
+  
+  }
